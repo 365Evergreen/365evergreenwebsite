@@ -21,6 +21,10 @@ export default function SectionRenderer({
           title={section.title}
           subtitle={section.subtitle}
           imageSrc={section.imageSrc}
+          imageAlt={section.imageAlt}
+          ctaLabel={section.ctaLabel}
+          ctaLink={section.ctaLink}
+
         />
       );
 

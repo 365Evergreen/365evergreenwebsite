@@ -38,6 +38,24 @@
       "label": "Latest updates",
       "slug": "latest-updates",
       "parent": ""
+    },
+    {
+      "id": "00007",
+      "label": "Modern Workplace",
+      "slug": "modern-workplace",
+      "parent": "what-we-do"
+    },
+    {
+      "id": "00008",
+      "label": "Automation",
+      "slug": "automation",
+      "parent": "what-we-do"
+    },
+    {
+      "id": "00009",
+      "label": "Copilot Adoption",
+      "slug": "copilot-adoption",
+      "parent": "what-we-do"
     }
   ]
 }

@@ -5,6 +5,9 @@ export type PageSection =
   | ContactSection;
 
 interface HeroSection {
+  imageAlt: string;
+  ctaLink: string;
+  ctaLabel: string;
   type: 'hero';
   title: string;
   subtitle: string;

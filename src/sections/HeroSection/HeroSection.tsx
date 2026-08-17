@@ -1,22 +1,32 @@
-
-
 import Hero from '../../components/Hero/Hero';
 
-type HeroSectionProps = {
-  onBrowseUpdates: () => void;
-};
+export interface HeroSectionProps {
+  title: string;
+  subtitle: string;
+  imageSrc: string;
+  imageAlt: string;
+  ctaLabel: string;
+  ctaLink: string;
+  onCtaClick?:() => void;
+}
 
 export default function HeroSection({
-  onBrowseUpdates,
+  title,
+  subtitle,
+  imageSrc,
+  imageAlt,
+  ctaLabel,
+  ctaLink,
+  onCtaClick
 }: HeroSectionProps) {
   return (
     <Hero
-      title="We are Microsoft 365 and Power Platform specialists"
-      subtitle="We partner with organisations to help build a modern workplace"
-      ctaLabel="Start your journey"
-      onCtaClick={onBrowseUpdates}
-      imageAlt="Plant background"
-      imageSrc="https://cdn.365evergreen.com/media/plant-cover-1440-900.webp"
-    />
+      title={title}
+      subtitle={subtitle}
+      imageSrc={imageSrc}
+      imageAlt={imageAlt}
+      ctaLabel={ctaLabel}
+      ctaLink={ctaLink}
+      onCtaClick={onCtaClick}    />
   );
 }

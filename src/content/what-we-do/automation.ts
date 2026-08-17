@@ -13,6 +13,9 @@ export const automation: ContentPage = {
         'Reduce manual effort and increase operational efficiency.',
       imageSrc:
         '/images/automation-hero.jpg',
+      imageAlt:'Automation',
+      ctaLabel:"Let's go",
+      ctaLink: ''
     },
 
     {

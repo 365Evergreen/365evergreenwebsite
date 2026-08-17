@@ -13,6 +13,9 @@ export const modernWorkplace: ContentPage = {
         'Empower staff with secure collaboration and modern productivity tools.',
       imageSrc:
         '/images/modern-workplace-hero.jpg',
+      imageAlt:'Automation',
+      ctaLabel:"Let's go",
+      ctaLink: ''
     },
 
     {
