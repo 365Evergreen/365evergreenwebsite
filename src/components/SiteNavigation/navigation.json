@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-14T13:40:28.7644325Z",
+  "count": 8,
+  "items": [
+    {
+      "id": "00001",
+      "label": "Home",
+      "slug": "home",
+      "parent": ""
+    },
+    {
+      "id": "00002",
+      "label": "What we do",
+      "slug": "what-we-do",
+      "parent": ""
+    },
+    {
+      "id": "00003",
+      "label": "How we do it",
+      "slug": "how-we-do-it",
+      "parent": ""
+    },
+    {
+      "id": "00004",
+      "label": "Our products",
+      "slug": "our-products",
+      "parent": ""
+    },
+    {
+      "id": "00005",
+      "label": "Resources",
+      "slug": "resources",
+      "parent": ""
+    },
+    {
+      "id": "00006",
+      "label": "Latest updates",
+      "slug": "latest-updates",
+      "parent": ""
+    }
+  ]
+}

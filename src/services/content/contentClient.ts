@@ -14,7 +14,7 @@ import type {
   PostsIndexDoc,
   SeoMeta,
   Status,
-} from '../../types/content'
+} from '../../types/ContentPage.types'
 
 const CONTENT_BASE_URL: string = (
   import.meta.env.VITE_CONTENT_BASE_URL || 'https://cdn.365evergreen.com/content'

@@ -7,6 +7,7 @@ export default function GetInTouchSection() {
   return (
     <section className={styles.section}>
       <Container>
+        <div className={styles.sectionTitle}>Get in touch</div>
         <GetInTouch
           leftColumn={
             <>

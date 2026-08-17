@@ -1,4 +1,10 @@
 .container{
-background: #1b1b1b;
+    padding: 2rem 4rem;
+background: #2c2c2c;
 color: white;
+}
+
+.sectionTitle{
+    font-size: larger;
+    font-weight: 500;
 }

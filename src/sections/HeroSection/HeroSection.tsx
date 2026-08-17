@@ -11,9 +11,9 @@ export default function HeroSection({
 }: HeroSectionProps) {
   return (
     <Hero
-      title="We are Microsoft 365 and Azure specialists"
-      subtitle="Helping organisations stay current with Microsoft 365 changes."
-      ctaLabel="Browse Updates"
+      title="We are Microsoft 365 and Power Platform specialists"
+      subtitle="We partner with organisations to help build a modern workplace"
+      ctaLabel="Start your journey"
       onCtaClick={onBrowseUpdates}
       imageAlt="Plant background"
       imageSrc="https://cdn.365evergreen.com/media/plant-cover-1440-900.webp"

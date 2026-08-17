@@ -2,7 +2,7 @@ import type {
   Author,
   SeoMeta,
   Status,
-} from '../../../types/content';
+} from '../../../types/ContentPage.types';
 
 export interface Page {
   id: string;

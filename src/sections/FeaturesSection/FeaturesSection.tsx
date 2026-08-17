@@ -31,6 +31,7 @@ export default function FeaturesSection() {
   return (
     <section className={styles.container}>
       <Container>
+        <div className={styles.sectionTitle}>What we do</div>
         <CardGrid cards={cards} />
       </Container>
     </section>
